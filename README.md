@@ -1,6 +1,6 @@
 # renovate-issue-7536
 
-This repository holds the Renovate lockfile PR mockup.
+This repository holds the Renovate lockfile PR mockup for [renovate/renovatebot #7536](https://github.com/renovatebot/renovate/issues/7536).
 
 The mockup is based on: https://github.com/renovatebot/renovate/pull/7551/files
 
