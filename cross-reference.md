@@ -1,70 +1,70 @@
 ## Dependencies comparison
 
-| Dependencies                  | package.json |                                                                   `yarn.lock` comparison                                                                   |
-| ----------------------------- | :----------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| @renovate/pep440              |    0.4.1     |                                                                        not in diff                                                                         |
-| @renovatebot/ruby-semver      |    0.2.1     |                                                                        not in diff                                                                         |
-| @sindresorhus/is              |    4.0.0     |                                                                        not in diff                                                                         |
-| @yarnpkg/core                 |    2.3.1     |                                                                        not in diff                                                                         |
-| @yarnpkg/parsers              |    2.3.0     |                                                                        not in diff                                                                         |
-| aws-sdk                       |   2.777.0    |   I think top level dependenc(y/ies) pins this to 2.777.0, and another dependency uses a range, so it gets bumped to 2.778 as part of `aws-sdk@^2.637.0`   |
-| azure-devops-node-api         |    10.1.1    |                                                                        not in diff                                                                         |
-| bunyan                        |    1.8.14    |                                                                        not in diff                                                                         |
-| cacache                       |    15.0.5    |                                                                        not in diff                                                                         |
-| chalk                         |    4.1.0     | chalk "^4.0.0" was already present in unchanged parts of diff. "@jest/reporters@^26.6.1" has chalk "^4.0.0" as a depenency, in the green part of the diff. |
-| changelog-filename-regex      |    2.0.1     |                                                                        not in diff                                                                         |
-| clean-git-ref                 |    2.0.1     |                                                                        not in diff                                                                         |
-| commander                     |    6.1.0     |                                                                        not in diff                                                                         |
-| conventional-commits-detector |    1.0.3     |                                                                        not in diff                                                                         |
-| deepmerge                     |    4.2.2     |                                                                        not in diff                                                                         |
-| delay                         |    4.4.0     |                                                                        not in diff                                                                         |
-| detect-indent                 |    6.0.0     |                                                                        not in diff                                                                         |
-| email-addresses               |    3.1.0     |                                                                        not in diff                                                                         |
-| fast-deep-equal               |    3.1.3     |                                                                        not in diff                                                                         |
-| fast-safe-stringify           |    2.0.7     |                                                                        not in diff                                                                         |
-| find-up                       |    5.0.0     |                                                                        not in diff                                                                         |
-| fs-extra                      |    9.0.1     |                                                                        not in diff                                                                         |
-| github-url-from-git           |    1.5.0     |                                                                        not in diff                                                                         |
-| global-agent                  |    2.1.12    |                                                                        not in diff                                                                         |
-| got                           |    11.8.0    |                                                                        not in diff                                                                         |
-| handlebars                    |    4.7.6     |                                                                        not in diff                                                                         |
-| handy-redis                   |    1.8.3     |                                                                        not in diff                                                                         |
-| hasha                         |    5.2.2     |                                                                        not in diff                                                                         |
-| ignore                        |    5.1.8     |                                                                        not in diff                                                                         |
-| ini                           |    1.3.5     |                                                                        not in diff                                                                         |
-| js-yaml                       |    3.14.0    |                                                                        not in diff                                                                         |
-| jsdom                         |    16.4.0    |                                                                        not in diff                                                                         |
-| json-dup-key-validator        |    1.0.2     |                                                                        not in diff                                                                         |
-| json-stringify-pretty-compact |    2.0.0     |                                                                        not in diff                                                                         |
-| json5                         |    2.1.3     |                                                                        not in diff                                                                         |
-| later                         |    1.2.0     |                                                                        not in diff                                                                         |
-| linkify-markdown              |    1.0.0     |                                                                        not in diff                                                                         |
-| luxon                         |    1.25.0    |                                                                        not in diff                                                                         |
-| markdown-it                   |    11.0.1    |                                                                        not in diff                                                                         |
-| markdown-table                |    2.0.0     |                                                                        not in diff                                                                         |
-| minimatch                     |    3.0.4     |                                                                        not in diff                                                                         |
-| moment                        |    2.29.1    |                                                                        not in diff                                                                         |
-| moment-timezone               |    0.5.31    |                                                                        not in diff                                                                         |
-| node-emoji                    |    1.10.0    |                                                                        not in diff                                                                         |
-| p-all                         |    3.0.0     |                                                                        not in diff                                                                         |
-| p-map                         |    4.0.0     |                                                                        not in diff                                                                         |
-| parse-diff                    |    0.7.1     |                                                                        not in diff                                                                         |
-| parse-link-header             |    1.0.1     |                                                                        not in diff                                                                         |
-| registry-auth-token           |    4.2.0     |                                                                        not in diff                                                                         |
-| semver                        |    7.3.2     |                                 Was already present, also new as sub dep for "@typescript-eslint/typescript-estree@4.5.0"                                  |
-| semver-stable                 |    3.0.0     |                                                                        not in diff                                                                         |
-| semver-utils                  |    1.1.4     |                                                                        not in diff                                                                         |
-| shlex                         |    2.0.2     |                                                                        not in diff                                                                         |
-| shortid                       |    2.2.16    |                                                                        not in diff                                                                         |
-| simple-git                    |    2.21.0    |                                                                        not in diff                                                                         |
-| slugify                       |    1.4.5     |                                                                        not in diff                                                                         |
-| toml                          |    3.0.0     |                                                                        not in diff                                                                         |
-| traverse                      |    0.6.6     |                                                                        not in diff                                                                         |
-| upath                         |    2.0.0     |                                                                        not in diff                                                                         |
-| url-join                      |    4.0.1     |                                                                        not in diff                                                                         |
-| validate-npm-package-name     |    3.0.0     |                                                                        not in diff                                                                         |
-| www-authenticate              |    0.6.2     |                                                                        not in diff                                                                         |
-| xmldoc                        |    1.1.2     |                                                                        not in diff                                                                         |
+| Dependencies                  | package.json |                                                                   `yarn.lock` comparison                                                                    |
+| ----------------------------- | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| @renovate/pep440              |    0.4.1     |                                                                         not in diff                                                                         |
+| @renovatebot/ruby-semver      |    0.2.1     |                                                                         not in diff                                                                         |
+| @sindresorhus/is              |    4.0.0     |                                                                         not in diff                                                                         |
+| @yarnpkg/core                 |    2.3.1     |                                                                         not in diff                                                                         |
+| @yarnpkg/parsers              |    2.3.0     |                                                                         not in diff                                                                         |
+| aws-sdk                       |   2.777.0    |   I think top level dependenc(y/ies) pins this to 2.777.0, and another dependency uses a range, so it gets bumped to 2.778 as part of `aws-sdk@^2.637.0`    |
+| azure-devops-node-api         |    10.1.1    |                                                                         not in diff                                                                         |
+| bunyan                        |    1.8.14    |                                                                         not in diff                                                                         |
+| cacache                       |    15.0.5    |                                                                         not in diff                                                                         |
+| chalk                         |    4.1.0     | chalk "^4.0.0" was already present in unchanged parts of diff. "@jest/reporters@^26.6.1" has chalk "^4.0.0" as a dependency, in the green part of the diff. |
+| changelog-filename-regex      |    2.0.1     |                                                                         not in diff                                                                         |
+| clean-git-ref                 |    2.0.1     |                                                                         not in diff                                                                         |
+| commander                     |    6.1.0     |                                                                         not in diff                                                                         |
+| conventional-commits-detector |    1.0.3     |                                                                         not in diff                                                                         |
+| deepmerge                     |    4.2.2     |                                                                         not in diff                                                                         |
+| delay                         |    4.4.0     |                                                                         not in diff                                                                         |
+| detect-indent                 |    6.0.0     |                                                                         not in diff                                                                         |
+| email-addresses               |    3.1.0     |                                                                         not in diff                                                                         |
+| fast-deep-equal               |    3.1.3     |                                                                         not in diff                                                                         |
+| fast-safe-stringify           |    2.0.7     |                                                                         not in diff                                                                         |
+| find-up                       |    5.0.0     |                                                                         not in diff                                                                         |
+| fs-extra                      |    9.0.1     |                                                                         not in diff                                                                         |
+| github-url-from-git           |    1.5.0     |                                                                         not in diff                                                                         |
+| global-agent                  |    2.1.12    |                                                                         not in diff                                                                         |
+| got                           |    11.8.0    |                                                                         not in diff                                                                         |
+| handlebars                    |    4.7.6     |                                                                         not in diff                                                                         |
+| handy-redis                   |    1.8.3     |                                                                         not in diff                                                                         |
+| hasha                         |    5.2.2     |                                                                         not in diff                                                                         |
+| ignore                        |    5.1.8     |                                                                         not in diff                                                                         |
+| ini                           |    1.3.5     |                                                                         not in diff                                                                         |
+| js-yaml                       |    3.14.0    |                                                                         not in diff                                                                         |
+| jsdom                         |    16.4.0    |                                                                         not in diff                                                                         |
+| json-dup-key-validator        |    1.0.2     |                                                                         not in diff                                                                         |
+| json-stringify-pretty-compact |    2.0.0     |                                                                         not in diff                                                                         |
+| json5                         |    2.1.3     |                                                                         not in diff                                                                         |
+| later                         |    1.2.0     |                                                                         not in diff                                                                         |
+| linkify-markdown              |    1.0.0     |                                                                         not in diff                                                                         |
+| luxon                         |    1.25.0    |                                                                         not in diff                                                                         |
+| markdown-it                   |    11.0.1    |                                                                         not in diff                                                                         |
+| markdown-table                |    2.0.0     |                                                                         not in diff                                                                         |
+| minimatch                     |    3.0.4     |                                                                         not in diff                                                                         |
+| moment                        |    2.29.1    |                                                                         not in diff                                                                         |
+| moment-timezone               |    0.5.31    |                                                                         not in diff                                                                         |
+| node-emoji                    |    1.10.0    |                                                                         not in diff                                                                         |
+| p-all                         |    3.0.0     |                                                                         not in diff                                                                         |
+| p-map                         |    4.0.0     |                                                                         not in diff                                                                         |
+| parse-diff                    |    0.7.1     |                                                                         not in diff                                                                         |
+| parse-link-header             |    1.0.1     |                                                                         not in diff                                                                         |
+| registry-auth-token           |    4.2.0     |                                                                         not in diff                                                                         |
+| semver                        |    7.3.2     |                                  Was already present, also new as sub dep for "@typescript-eslint/typescript-estree@4.5.0"                                  |
+| semver-stable                 |    3.0.0     |                                                                         not in diff                                                                         |
+| semver-utils                  |    1.1.4     |                                                                         not in diff                                                                         |
+| shlex                         |    2.0.2     |                                                                         not in diff                                                                         |
+| shortid                       |    2.2.16    |                                                                         not in diff                                                                         |
+| simple-git                    |    2.21.0    |                                                                         not in diff                                                                         |
+| slugify                       |    1.4.5     |                                                                         not in diff                                                                         |
+| toml                          |    3.0.0     |                                                                         not in diff                                                                         |
+| traverse                      |    0.6.6     |                                                                         not in diff                                                                         |
+| upath                         |    2.0.0     |                                                                         not in diff                                                                         |
+| url-join                      |    4.0.1     |                                                                         not in diff                                                                         |
+| validate-npm-package-name     |    3.0.0     |                                                                         not in diff                                                                         |
+| www-authenticate              |    0.6.2     |                                                                         not in diff                                                                         |
+| xmldoc                        |    1.1.2     |                                                                         not in diff                                                                         |
 
 ## Optional dependencies comparison
 
