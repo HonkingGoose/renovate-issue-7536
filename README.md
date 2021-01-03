@@ -1,3 +1,5 @@
+![Prettier](https://github.com/HonkingGoose/renovate-issue-7536/workflows/Prettier/badge.svg)
+
 # renovate-issue-7536
 
 This repository holds the Renovate lockfile PR mockup for [renovate/renovatebot #7536](https://github.com/renovatebot/renovate/issues/7536).
