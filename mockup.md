@@ -19,7 +19,8 @@ This PR contains the following updates:
 ### Release Notes
 
 <details>
-<summary></summary>
+<summary>Summary of first package upgrade goes here</summary>
+</details>
 
 ---
 
