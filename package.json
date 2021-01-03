@@ -1,0 +1,24 @@
+{
+  "name": "renovate-issue-7536",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This repository holds the Renovate lockfile PR mockup.",
+  "main": "index.js",
+  "scripts": {
+    "prettier-fix": "prettier --write .",
+    "lint": "prettier --check ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HonkingGoose/renovate-issue-7536.git"
+  },
+  "author": "HonkingGoose",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/HonkingGoose/renovate-issue-7536/issues"
+  },
+  "homepage": "https://github.com/HonkingGoose/renovate-issue-7536#readme",
+  "devDependencies": {
+    "prettier": "2.2.1"
+  }
+}
