@@ -15,7 +15,7 @@ It might still be present as an unchanged part of the diff, but that's not reall
 | @sindresorhus/is              |   4.0.0   |                                         not in diff                                          |
 | @yarnpkg/core                 |   2.3.1   |                                         not in diff                                          |
 | @yarnpkg/parsers              |   2.3.0   |                                         not in diff                                          |
-| aws-sdk                       |  2.777.0  |                       upgraded to 2.778 as part of `aws-sdk@^2.637.0`                        |
+| aws-sdk                       |  2.777.0  |                      upgraded to 2.778.0 as part of `aws-sdk@^2.637.0`                       |
 | azure-devops-node-api         |  10.1.1   |                                         not in diff                                          |
 | bunyan                        |  1.8.14   |                                         not in diff                                          |
 | cacache                       |  15.0.5   |                                         not in diff                                          |
