@@ -1,7 +1,0 @@
-{
-  "extends": ["config:base"],
-  "dependencyDashboard": true,
-  "lockFileMaintenance": {
-    "enabled": true
-  }
-}
